@@ -74,3 +74,20 @@ Escape Sequences
 
 true, false
 nullptr
+
+2.2. Variables
+Name: Box တိုင်းမှာ နာမည်ရှိရမယ်
+Type: Box ရဲ့ အရွယ်အစားနဲ့ ပုံသဏ္ဍာန်
+Value: Box ထဲမှာ ထည့်ထားတဲ့ ပစ္စည်း (Data)
+
+Type
+Size and Layout: Memory ပေါ်မှာ နေရာဘယ်လောက်ယူမလဲ?
+Range: ဘယ်လောက်ကနေ ဘယ်လောက်အထိ တန်ဖိုးတွေ သိမ်းလို့ရမလဲ? (ဥပမာ- ကိန်းပြည့်လား၊ ဒသမကိန်းလား?)
+Operations: ဒီ variable နဲ့ ဘာတွေလုပ်လို့ရလဲ? (ဥပမာ- int ဆိုရင် ပေါင်းလို့ရမယ်၊ string ဆိုရင် စာသားတွေ ဆက်လို့ရမယ်)
+
+
+2.2.1. Variable Definitions
+Initialization နဲ့ Assignment က မတူပါဘူး။
+
+တကယ်လို့ ကျွန်တော်တို့က Variable ကြေညာပြီး တန်ဖိုးမထည့်ခဲ့ရင် (No Initializer) ဘာဖြစ်မလဲ? ဒါကို Default Initialization လို့ခေါ်ပါတယ်။
+
