@@ -150,3 +150,13 @@ int *p = &ival; // p ဆိုတဲ့ pointer ထဲမှာ ival ရဲ့ a
 3.Must be an Object
 
 int &refVal = 10;
+
+
+
+2.3.2. Pointers
+
+int ival = 42;
+int *p = &ival; // p ဆိုတဲ့ pointer ထဲမှာ ival ရဲ့ address ကို သိမ်းလိုက်တာ
+
+
+void*
