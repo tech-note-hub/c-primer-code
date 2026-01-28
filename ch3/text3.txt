@@ -41,3 +41,33 @@ s1 = s2	s1 ကို s2 ရဲ့ copy နဲ့ အစားထိုးမယ�
 s1 == s2, s1 != s2	တူမတူ စစ်မယ်။ (Case-sensitive ဖြစ်တယ်)
 
 <, <=, >, >=	Dictionary ပုံစံအတိုင်း Case-sensitive နှိုင်းယှဉ်မယ်။
+
+
+3.2.3. Dealing with the Characters in a string
+
+isalnum(c)	c က စာလုံး (Letter) ဒါမှမဟုတ် ဂဏန်း (Digit) ဖြစ်ရင် true
+isalpha(c)	c က စာလုံးဖြစ်ရင် true
+isdigit(c)	c က ဂဏန်းဖြစ်ရင် true
+islower(c)	c က lowercase (စာလုံးအသေး) ဖြစ်ရင် true
+ispunct(c)	c က ပုဒ်ဖြတ်ပုဒ်ရပ် (Punctuation) ဖြစ်ရင် true
+isspace(c)	c က whitespace (space, tab, newline စသဖြင့်) ဖြစ်ရင် true
+isupper(c)	c က uppercase (စာလုံးအကြီး) ဖြစ်ရင် true
+tolower(c)စာလုံးအကြီးဖြစ်ရင် အသေးပြောင်းပေးတယ်၊ မဟုတ်ရင် မပြောင်းဘဲ ပြန်ပေးတယ်
+toupper(c)စာလုံးအသေးဖြစ်ရင် အကြီးပြောင်းပေးတယ်၊ မဟုတ်ရင် မပြောင်းဘဲ ပြန်ပေးတယ်
+
+<cctype>
+
+for (declaration : expression)
+    statement
+
+
+s[0] - s[s.size() - 1]
+
+
+မေးခွန်း: Range for ကိုသုံးပြီး string ထဲက character အားလုံးကို X အဖြစ် ပြောင်းပါ။
+
+မေးခွန်း: အပေါ်က loop မှာ loop variable ကို char လို့ပဲ သတ်မှတ်လိုက်ရင် ဘာဖြစ်မလဲ။
+
+
+string s;
+cout << s[0] << endl;
