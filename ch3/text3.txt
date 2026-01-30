@@ -71,3 +71,36 @@ s[0] - s[s.size() - 1]
 
 string s;
 cout << s[0] << endl;
+
+
+
+3.3. Library vector Type (အခြေခံသဘောတရား)
+
+Class Template ဆိုတာ ဘာလဲ?
+
+vector<int> ivec;             // ivec ထဲမှာ int အမျိုးအစား object တွေ သိမ်းမယ်
+vector<Sales_item> Sales_vec; // Sales_item တွေကို သိမ်းမယ်
+vector<vector<string>> file;  // vector ထဲမှာ string vector တွေကို ထပ်ဆင့်သိမ်းမယ်
+
+
+vector ထဲမှာ ဘာတွေသိမ်းလို့ရလဲ?
+
+vector<vector<int> >
+vector<vector<int>>
+
+3.3.1. Defining and Initializing vectors
+
+Code	Description
+vector<T> v1	Type T ကို သိမ်းမယ့် vector ဖြစ်ပါတယ်။ Default initialization ဖြစ်ပြီး v1 က အလွတ် (empty) ဖြစ်ပါတယ်။
+
+vector<T> v2(v1)	v1 ထဲမှာ ရှိသမျှ element တိုင်းကို copy ကူးပြီး v2 ကို တည်ဆောက်တာပါ။
+
+vector<T> v2 = v1	v2(v1) နဲ့ အတူတူပါပဲ။ v2 ဟာ v1 ရဲ့ element တွေကို copy ကူးယူထားတာပါ။
+
+vector<T> v3(n, val)	တန်ဖိုး val ရှိတဲ့ element အရေအတွက် n ခုပါဝင်တဲ့ v3 ကို တည်ဆောက်တာပါ။
+
+vector<T> v4(n)	Value-initialized ဖြစ်နေတဲ့ object အရေအတွက် n ခုပါဝင်တဲ့ v4 ကို တည်ဆောက်တာပါ။
+
+vector<T> v5 {a, b, c, ...}	element အရေအတွက်က ပေးထားတဲ့ initializers အရေအတွက်အတိုင်း ဖြစ်ပါတယ်။ element တွေကို သက်ဆိုင်ရာ တန်ဖိုးတွေနဲ့ initialize လုပ်ပါတယ်။
+
+vector<T> v5 = {a, b, c, ...}	v5 {a, b, c, ...} နဲ့ အတူတူပါပဲ။
