@@ -104,3 +104,10 @@ vector<T> v4(n)	Value-initialized ဖြစ်နေတဲ့ object အရေ�
 vector<T> v5 {a, b, c, ...}	element အရေအတွက်က ပေးထားတဲ့ initializers အရေအတွက်အတိုင်း ဖြစ်ပါတယ်။ element တွေကို သက်ဆိုင်ရာ တန်ဖိုးတွေနဲ့ initialize လုပ်ပါတယ်။
 
 vector<T> v5 = {a, b, c, ...}	v5 {a, b, c, ...} နဲ့ အတူတူပါပဲ။
+
+
+
+3.3.2. Adding Elements to a vector
+
+
+3.3.3. Other vector Operations
